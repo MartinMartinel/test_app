@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'registrations/index'
+
   resources :friendships
 
   resources :posts do
